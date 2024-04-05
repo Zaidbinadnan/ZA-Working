@@ -1,9 +1,8 @@
 "use strict";
-//Declare a variable named greeting with the string value "Hello, World!" and print it.
+//1. Hello Variable
 let greeting = "Hello World";
 console.log(greeting);
-/*Define two variables with integer values and calculate their sum, difference, product,
-and quotient.*/
+//2. Basic Math
 let num1 = 30;
 let num2 = 5;
 // addition
@@ -16,26 +15,26 @@ console.log(num1 * num2); //150
 console.log(num1 / num2); // 6
 //Exponentiation
 console.log(num1 ** num2);
-//Swap the values of two variables without using a third variable.
+//3. 3. Swapping Values Swap the values of two variables without using a third variable.
 let a = 2;
 let b = 4;
 [a, b] = [b, a]; //a=4 & b=2
 console.log("a", a);
 console.log("b", b);
-//This applies to TypeScript. Create a string variable and try changing its type.
+//4.Type Annotation (TypeScript) This applies to TypeScript. Create a string variable and try changing its type.
 let message;
 //message = 2; it will give error because we are trying to assiging number to variable having type string
-//Use the modulus operator to find the remainder of two numbers.
+//5. Modulus Operator. Use the modulus operator to find the remainder of two numbers.
 console.log(num1 % num2); // 0
-// Increment a variable's value by 1 using two different methods.
+//6. Increment Challenge Increment a variable's value by 1 using two different methods.
 let counter = 0;
 counter += 1;
 console.log(counter); // 1
 counter++;
 console.log(counter); // 2
-//Given three boolean variables, write expressions for AND, OR, and NOT gates.
+//7.Logical Gates: Given three boolean variables, write expressions for AND, OR, and NOT gates.
 let a1 = true, b1 = false, c = true;
-//  expressions using these.
+// 7. expressions using these.
 let andgate = a1 && b1;
 console.log("andgate ", andgate); //false
 let andgate2 = a1 && c;
@@ -50,7 +49,7 @@ let orGate2 = b1 || c;
 console.log("orGate2: ", orGate2);
 let notGate = !(a1 || b1 || c);
 console.log(notGate); // False as revrse the result
-//Show examples of using compound assignment operators.Use +=, -=, *=, and /= on this variable
+//8. Compound Assignment:Show examples of using compound assignment operators.Use +=, -=, *=, and /= on this variable
 let num = 10;
 num += 2;
 console.log(num); //12
@@ -60,7 +59,7 @@ num *= 2;
 console.log(num); //22
 num /= 2;
 console.log(num); //11
-//Write a program to check if a number is even or odd.
+//9. Even or Odd: a program to check if a number is even or odd.
 function checkEvenOrOdd(number) {
     if (number % 2 === 0) {
         return "even";
@@ -73,7 +72,7 @@ let num5 = 10;
 let num6 = 7;
 console.log(`${num5} is ${checkEvenOrOdd(num5)}.`);
 console.log(`${num6} is ${checkEvenOrOdd(num6)}.`);
-//Check if a person is eligible to vote.
+//10. Voting Eligibility:Check if a person is eligible to vote.
 let age = 17;
 if (age > 18) {
     console.log("Yo are eligible to cast the vote");
@@ -88,7 +87,7 @@ if (age2 > 18) {
 else {
     console.log("You are not eligible to cast the vote");
 }
-//Assign a grade based on a numerical score conditionals to assign and print grades A, B, C, D, or F.
+//11. Grading System: Assign a grade based on a numerical score 
 let score = 43;
 if (score >= 90) {
     console.log("Grade: A");
@@ -105,7 +104,7 @@ else if (score >= 50) {
 else {
     console.log("Grade: F");
 }
-//12. Max of Three Find the maximum of three numbers.
+//12. Max of Three: Max of Three Find the maximum of three numbers.
 let x = 5;
 let y = 10;
 let z = 7;
@@ -148,7 +147,7 @@ else if (number < 0) {
 else {
     console.log("The number is zero");
 }
-//Multiplication Table multiplication table of a given number up to 10
+// 16.Multiplication Table multiplication table of a given number up to 10
 let number1 = 2;
 console.log("2*1=", number1); //2
 number1 += 2;

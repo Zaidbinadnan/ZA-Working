@@ -1,3 +1,4 @@
+#! /usr/bin/env Node
 import inquirer from "inquirer";
 async function calculator() {
     let continueCalculation = true;

@@ -13,7 +13,7 @@ console.log("detail:", detail);
 console.log(detail.name); // dot notation to print result use dot.
 console.log(detail.gender);
 console.log(detail.age);
-console.log(detail["gender"]);
+console.log(detail["gender"]); //[] notation
 console.log(detail["name"]);
 
 let message = "Hello World";
